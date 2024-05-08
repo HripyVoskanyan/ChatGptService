@@ -28,4 +28,4 @@ EXPOSE 5000
 ENV NAME World
 
 # Adjust the path to Python file 
-CMD ["python", "./ml-model/models/flask_app.py"]
+CMD ["python", "ml-model/models/flask_app.py"]

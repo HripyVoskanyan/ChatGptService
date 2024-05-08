@@ -27,5 +27,5 @@ EXPOSE 5000
 # Define environment variable
 ENV NAME World
 
-# Command to run the app. Adjust the path to your Python file.
-CMD ["python", "notebooks/flask_app.py"]
+# Adjust the path to Python file 
+CMD ["python", "./ml-model/models/flask_app.py"]

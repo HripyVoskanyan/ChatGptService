@@ -7,8 +7,8 @@ logging.basicConfig(level=logging.DEBUG)
 app = Flask(__name__)
 
 # Load the model and tokenizer
-tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-medium")
-model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-medium")
+tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-small")
+model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-small")
 
 
 @app.route('/generate', methods=['POST'])

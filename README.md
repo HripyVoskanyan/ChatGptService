@@ -5,7 +5,7 @@ We provide two services: Standard and Premium. The standard plan provides a usua
 
 <br>
 
-#LLM Model
+# LLM Model
 
 We use a Flask-based API for a chatbot service utilizing the Llama model. This service includes two different endpoints for handling requests: a free service and a premium service.
 
@@ -47,7 +47,7 @@ Send the request and view the response.
 
 <br>
 
-#Getting Started with Create React App
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
